@@ -1,6 +1,6 @@
 /**
  * Originalmente escrito por DGmike, atualizado por roberto.cr e Ian Pacheco
- * Cód. Municipios adicionados por ArTDsL (https://github.com/artdsl) - 24/12/2019
+ * Cód. Municipios adicionados por ArTDsL (https://github.com/artdsl) [24/12/2019]
  * http://code.google.com/p/cidades-estados-js/
  */
 
