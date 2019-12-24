@@ -1,0 +1,23 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+  "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd>
+<html>
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <title>Estados e Cidades - Exemplo</title>
+    <script language="JavaScript" type="text/javascript" src="cidades-estados.js"></script>
+  </head>
+
+  <body>
+    <select id="estado1"></select>
+    <select id="cidade1"></select>
+	<select type="text" id="codigo1" />
+    <script language="JavaScript" type="text/javascript" charset="utf-8">
+      new dgCidadesEstados({
+	    estado: document.getElementById('estado1'),
+        cidade: document.getElementById('cidade1'),
+		codigo: document.getElementById('codigo1')
+      })
+    </script>
+    <br /> <br />
+  </body>
+</html>
