@@ -1,16 +1,16 @@
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
-  "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd>
-<html>
+<!DOCTYPE html>
+<html lang="pt-BR">
   <head>
     <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
-    <title>Estados e Cidades - Exemplo</title>
+    <title>Estados, Cidades & CLP - Exemplo</title>
     <script language="JavaScript" type="text/javascript" src="cidades-estados.js"></script>
   </head>
 
   <body>
+	<h4>Cidade, Estado & CLP</h4>
     <select id="estado1"></select>
     <select id="cidade1"></select>
-	<select type="text" id="codigo1" />
+	<select id="codigo1"></select>
     <script language="JavaScript" type="text/javascript" charset="utf-8">
       new dgCidadesEstados({
 	    estado: document.getElementById('estado1'),
@@ -18,6 +18,53 @@
 		codigo: document.getElementById('codigo1')
       })
     </script>
-    <br /> <br />
+    <br><hr>
+	<h5>Você pode usar multiplas caixas em uma mesma página.</h5>
+    <select id="estado2"></select>
+    <select id="cidade2"></select>
+	<select id="codigo2"><select>
+    <script language="JavaScript" type="text/javascript" charset="utf-8">
+      new dgCidadesEstados({
+	    estado: document.getElementById('estado2'),
+        cidade: document.getElementById('cidade2'),
+		codigo: document.getElementById('codigo2')
+      })
+    </script>
+	<br><br>
+	<select id="estado3"></select>
+    <select id="cidade3"></select>
+	<select id="codigo3"><select>
+    <script language="JavaScript" type="text/javascript" charset="utf-8">
+      new dgCidadesEstados({
+	    estado: document.getElementById('estado3'),
+        cidade: document.getElementById('cidade3'),
+		codigo: document.getElementById('codigo3')
+      })
+    </script>
+	<br><hr>
+	<h5>Utilização sem CLP (com valores pré definidos ou não):</h5>
+    <select id="estado4"></select>
+	<select id="cidade4"></select>
+    <script language="JavaScript" type="text/javascript" charset="utf-8">
+      new dgCidadesEstados({
+	    estado: document.getElementById('estado4'),
+		cidade: document.getElementById('cidade4')
+      })
+    </script>
+	<br><hr>
+	<h5>É possível pré definir um valor especifico ou todos os valores.</h5>
+    <select id="estado5"></select>
+    <select id="cidade5"></select>
+	<select id="codigo5"><select>
+    <script language="JavaScript" type="text/javascript" charset="utf-8">
+      new dgCidadesEstados({
+	    estado: document.getElementById('estado5'),
+        cidade: document.getElementById('cidade5'),
+		codigo: document.getElementById('codigo5'),
+		estadoVal: 'SP',
+		cidadeVal: 'Lins',
+		codigoVal: 'LNS'
+      })
+    </script>
   </body>
 </html>
