@@ -1,7 +1,8 @@
 /**
  * Originalmente escrito por DGmike, atualizado por roberto.cr e Ian Pacheco
+ * URL do projeto original: http://code.google.com/p/cidades-estados-js/
  * Cód. Municipios adicionados por ArTDsL (https://github.com/artdsl) [24/12/2019]
- * http://code.google.com/p/cidades-estados-js/
+ * Versão 1.6 - [26/12/2019]
  */
 
 /* Dom Ready */
@@ -126,7 +127,6 @@ dgCidadesEstados.prototype = {
 	
     var opts = this.codigo;
     while (opts.childNodes.length) opts.removeChild(opts.firstChild); // limpa a lista atual
-    this.addOption(opts, '', 'Selecione um código');
     this.setCodigoM(opts, itens[SelCidade - 1], itens[SelCidade - 1], SelCidade); // vai adicionando as cidades correspondentes
 	  var selecionar = document.getElementsBy();
       selecionar.selectedIndex = SelCidade;
