@@ -1,4 +1,4 @@
-# cidades-estados-js
+# cidades-estados-clp-js
 Originalmente criado por [DGmike](https://github.com/dgmike), modificado por [robertocr](https://github.com/robertocr) & Ian Pacheco.
 
 Códigos CLP adicionados por [ArTDsL](https://github.com/ArTDsL) - 24/12/2019
